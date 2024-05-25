@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=McLaren&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+
+}
+
+body {
+  background: #eee;
+  padding: 0 16px;
+  overflow: hidden;
+}
+
+
+header  {
+  position: fixed;
+    background-color: #f5ba13;
+    margin: auto -16px;
+    padding: 16px 32px;
+    font-size: 25px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    font-family: "McLaren", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;
+    top: 1px;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}
+
+form {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+  font-family: "McLaren", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  top: 12vh;
+
+}
+
+form input, textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+
+form input{
+ font-size: 22px;
+ font-weight: 400;
+}
+
+form textarea {
+  font-size: 15px;
+  font-weight: 200;
+}
+
+form button {
+  position: absolute;
+  background: #f5ba13;
+  right: 47px;
+  font-weight: 400;
+  color: white  ;
+  bottom: -18px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50Px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin-top: 8%;
+}
+
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+
+}
+.note h3 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-size: 23px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  color: #f5ba13;
+  border: none;
+  background: #fff;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+}
+
+
+.modal-box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  border: none;
+  height: 50%;
+  width: 35%;
+  border-radius: 10px;
+  top: 44%;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
